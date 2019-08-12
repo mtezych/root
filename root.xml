@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- https://gerrit.googlesource.com/git-repo -->
+<!-- https://docs.sel4.systems/RepoCheatsheet -->
+<!-- https://www.instructables.com/id/Using-Googles-repo-command-in-your-own-projects -->
+<!-- http://blog.udinic.com/2014/05/24/aosp-part-1-get-the-code-using-the-manifest-and-repo -->
+
+<manifest>
+
+	<remote name="GitHub" fetch="https://github.com/mtezych" />
+
+	<default remote="GitHub" revision="master" />
+
+	<project path="util" name="util" />
+	<project path="tool" name="tool" />
+	<project path="app"  name="app"  />
+	<project path="root" name="root"  >
+		<copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
+	</project>
+
+</manifest>
