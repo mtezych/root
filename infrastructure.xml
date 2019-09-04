@@ -7,7 +7,10 @@
 
 <manifest>
 
-	<remote name="GitHub" fetch="https://github.com/mtezych" />
+	<remote name="GitHub"  fetch="https://github.com/mtezych" />
+	<remote name="Linux"   fetch="/home/mzych/repos"          />
+	<remote name="macOS"   fetch="/Users/mzych/repos"         />
+	<remote name="Windows" fetch="C:\Users\mzych\repos"       />
 
 	<default remote="GitHub" revision="master" />
 
