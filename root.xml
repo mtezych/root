@@ -4,8 +4,8 @@
 
 	<include name="infrastructure.xml" />
 
-	<project path="util" name="util" />
-	<project path="tool" name="tool" />
-	<project path="app"  name="app"  />
+	<project path="util" name="util" revision="master" />
+	<project path="tool" name="tool" revision="master" />
+	<project path="app"  name="app"  revision="master" />
 
 </manifest>
